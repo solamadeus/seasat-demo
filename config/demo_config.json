@@ -1,0 +1,10 @@
+{
+  "name": "mexico_gulf_demo",
+  "date": "2019-06-11",
+  "time": "16:20",
+  "datetime_utc": "2019-06-11T16:20:00Z",
+  "center": {"lon": -80.0, "lat": 29.4},
+  "bbox": {"west": -80.5, "south": 29.0, "east": -79.5, "north": 30.0},
+  "zoom": 8,
+  "note": "Fixed MVP demo AOI/date for SeaSat portal"
+}

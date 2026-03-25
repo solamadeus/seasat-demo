@@ -1,0 +1,70 @@
+{
+  "SSS": {
+    "OOF": {
+      "xgb_s2only": {
+        "rmse": 11.30551616610988,
+        "mae": 9.073264675352284,
+        "r2": 0.2334450118883996
+      },
+      "xgb_s2pluswx": {
+        "rmse": 10.593237688334455,
+        "mae": 8.322441035072398,
+        "r2": 0.32699241745056773
+      }
+    },
+    "UK": {
+      "xgb_s2only": {
+        "rmse": 7.411190298228631,
+        "mae": 6.704609920573684,
+        "r2": -30.84398277424081
+      },
+      "xgb_s2pluswx": {
+        "rmse": 9.110557305409642,
+        "mae": 7.891365590765291,
+        "r2": -47.12174184754281
+      }
+    },
+    "feat_counts": {
+      "s2only": 41,
+      "s2pluswx": 117
+    },
+    "champion": "S2-only"
+  },
+  "SST": {
+    "OOF": {
+      "xgb_s2only": {
+        "rmse": 2.8858158533953233,
+        "mae": 1.9374739167860595,
+        "r2": 0.7769922935626443
+      },
+      "xgb_s2pluswx": {
+        "rmse": 1.6747798547813095,
+        "mae": 1.106790709696861,
+        "r2": 0.9240695836608599
+      }
+    },
+    "UK": {
+      "xgb_s2only": {
+        "rmse": 4.226418406452563,
+        "mae": 3.076707104434016,
+        "r2": -0.037167676154447715
+      },
+      "xgb_s2pluswx": {
+        "rmse": 1.8616535496106055,
+        "mae": 1.3756727308273313,
+        "r2": 0.8030974842204841
+      }
+    },
+    "feat_counts": {
+      "s2only": 41,
+      "s2pluswx": 117
+    },
+    "champion": "S2+weather"
+  },
+  "model_paths": {
+    "xgb_sss_s2only": "/content/drive/MyDrive/SEASAT/GlasgowUNI_/models/S2only_vs_S2plusWeather_20251014_083439/xgb_sss_s2only.json",
+    "xgb_sss_s2pluswx": "/content/drive/MyDrive/SEASAT/GlasgowUNI_/models/S2only_vs_S2plusWeather_20251014_083439/xgb_sss_s2pluswx.json",
+    "xgb_sst_s2only": "/content/drive/MyDrive/SEASAT/GlasgowUNI_/models/S2only_vs_S2plusWeather_20251014_083439/xgb_sst_s2only.json",
+    "xgb_sst_s2pluswx": "/content/drive/MyDrive/SEASAT/GlasgowUNI_/models/S2only_vs_S2plusWeather_20251014_083439/xgb_sst_s2pluswx.json"
+  }
+}
