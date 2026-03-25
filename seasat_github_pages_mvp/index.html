@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>SeaSat Demo</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+  <div class="topbar">
+    <div>
+      <h1 id="title">SeaSat Demo</h1>
+      <p id="subtitle">Fixed AOI and date</p>
+    </div>
+    <div class="legend-wrap">
+      <div class="legend"><span class="dot low"></span> Lower</div>
+      <div class="legend"><span class="dot mid"></span> Mid</div>
+      <div class="legend"><span class="dot high"></span> Higher</div>
+    </div>
+  </div>
+
+  <div id="map"></div>
+
+  <div class="sidepanel">
+    <h3>Layers</h3>
+    <label><input type="checkbox" id="toggle-rgb" checked /> Sentinel-2 RGB</label>
+    <label><input type="checkbox" id="toggle-sst" checked /> Predicted SST</label>
+    <label><input type="checkbox" id="toggle-sss" checked /> Predicted SSS</label>
+    <label><input type="checkbox" id="toggle-chla" checked /> Predicted Chl-a</label>
+    <hr />
+    <div id="meta"></div>
+  </div>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="./config.js"></script>
+  <script src="./app.js"></script>
+</body>
+</html>
